@@ -1,7 +1,7 @@
 {
 	"name": "Custom meta description",
 	"version": "1.0",
-	"description": "Renders a context depending meta description. E.g. enables you to use album title as description if not supported by the theme",
+	"description": "Replaces the theme provided description by a configurable, context aware, custom one. Enables you to e.g. use the album title as description. Supports lens variable.",
 	"demo": "http://ontheroad.pulponair.de",
 	"author": {
 		"name": "Nikolas Hagelstein",
