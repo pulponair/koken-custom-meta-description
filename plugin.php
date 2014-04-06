@@ -17,7 +17,8 @@ class PulponairCustomMetaDescription extends KokenPlugin {
 	 * @return string mixed
 	 */
 	public function render($content) {
-		if ($configuration = $this->data->{Koken::$source['type']}) {
+		$type = Koken::$source['type'];
+		if (property_exists($this->data, $type) && ($configuration = $this->data->{$type}) ) {
 			$description = preg_replace_callback('/\{\{\s*([^\}]+)\s*\}\}/', array($this, 'kokenOutCallback'),
 				$configuration);
 
