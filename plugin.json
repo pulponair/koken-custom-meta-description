@@ -11,20 +11,43 @@
 		"albums": {
 			"label": "Albums",
 			"type": "string",
-			"info" : "Configuration for album lists. You can combine lens syntax and static text.  E.g. 'My Album: {{ album.title }}. Leave empty if you want to use the default description provided by the theme. Hint: Depending on you theme, this might be your root page.'"
+			"info" : "Album list configuration. You can combine lens syntax and static text.  E.g. 'My Album: {{ album.title }}. Leave empty if you want to use the default description provided by the theme. Hint: Depending on you theme, this might be your root page.'"
 		},
 		"album": {
 			"label": "Album",
 			"type": "string",
-			"info" : "Configuration for album page. You can combine lens syntax and static text. E.g. 'My Album: {{ album.title }}'. Leave empty if you want to use the default description provided by the theme."
+			"info" : "Album page configuration. You can combine lens syntax and static text. E.g. 'My Album: {{ album.title }}'. Leave empty if you want to use the default description provided by the theme."
 		},
 		"content": {
 			"label": "Content",
 			"type": "string",
-			"info" : "Configuration for content detail page. You can combine lens syntax and static text. E.g. 'My Album: {{ album.title }}'. Leave empty if you want to use the default description provided by the theme."
+			"info" : "Content detail page configuration. You can combine lens syntax and static text. E.g. 'My Album: {{ album.title }}'. Leave empty if you want to use the default description provided by the theme."
+		},
+		"essays": {
+			"label": "Essays",
+			"type": "string",
+			"info" : "Essay list configuration. You can combine lens syntax and static text. E.g. 'My Album: {{ album.title }}'. Leave empty if you want to use the default description provided by the theme."
+		},
+		"essay": {
+			"label": "Essay",
+			"type": "string",
+			"info" : "Essay detail page configuration. You can combine lens syntax and static text. E.g. 'My Album: {{ album.title }}'. Leave empty if you want to use the default description provided by the theme."
+		},
+		"page": {
+			"label": "Page",
+			"type": "string",
+			"info" : "Page configuration. You can combine lens syntax and static text. E.g. 'My Album: {{ album.title }}'. Leave empty if you want to use the default description provided by the theme."
+		},
+		"sets": {
+			"label": "Sets",
+			"type": "string",
+			"info" : "Set list configuration. You can combine lens syntax and static text. E.g. 'My Album: {{ album.title }}'. Leave empty if you want to use the default description provided by the theme."
+		},
+		"set": {
+			"label": "Set",
+			"type": "string",
+			"info" : "Set page configuration. You can combine lens syntax and static text. E.g. 'My Album: {{ album.title }}'. Leave empty if you want to use the default description provided by the theme."
 		}
-
-
 	},
 	"koken_version_required": "0.2.0"
 }
