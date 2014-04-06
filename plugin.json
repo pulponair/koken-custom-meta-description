@@ -1,0 +1,30 @@
+{
+	"name": "Custom meta description",
+	"version": "1.0",
+	"description": "Renders a context depending meta description. E.g. enables you to use album title as description if not supported by the theme",
+	"demo": "http://ontheroad.pulponair.de",
+	"author": {
+		"name": "Nikolas Hagelstein",
+		"link": "http://ontheroad.pulponair.de"
+	},
+	"data": {
+		"albums": {
+			"label": "Albums",
+			"type": "string",
+			"info" : "Configuration for album lists. You can combine lens syntax and static text.  E.g. 'My Album: {{ album.title }}. Leave empty if you want to use the default description provided by the theme. Hint: Depending on you theme, this might be your root page.'"
+		},
+		"album": {
+			"label": "Album",
+			"type": "string",
+			"info" : "Configuration for album page. You can combine lens syntax and static text. E.g. 'My Album: {{ album.title }}'. Leave empty if you want to use the default description provided by the theme."
+		},
+		"content": {
+			"label": "Content",
+			"type": "string",
+			"info" : "Configuration for content detail page. You can combine lens syntax and static text. E.g. 'My Album: {{ album.title }}'. Leave empty if you want to use the default description provided by the theme."
+		}
+
+
+	},
+	"koken_version_required": "0.2.0"
+}
