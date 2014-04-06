@@ -11,8 +11,11 @@ storage/plugins/pulponair-custom-meta-description/
 ###Configure the plugin
 Login to your koken installation and switch to settings->plugin. You should see a new plugin entry called "Custom meta description". If not you might need to clear the "system caches" and or reload the koken admin interface.
 
-Next click on setup and configure the plugins behavior. If finished: enabled the plugin
+Next click on setup and configure the plugins behavior. 
 
+**Example setup**
+![ScreenShot](http://i.imgur.com/sAsUx5b.jpg)
 
+When finished: enabled the plugin
 
 Done :)
