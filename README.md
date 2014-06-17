@@ -1,7 +1,9 @@
 koken-custom-meta-description
 =============================
 
-Replaces the theme provided description by a configurable, context aware, custom one. Enables you to e.g. use the album title as description.  Supports lens variables
+Replaces the theme provided description by a configurable, context aware, custom one. Enables you to e.g. use the album title as description.
+Supports lens variables.
+See: http://help.koken.me/customer/portal/articles/982033-lens-variables
 ##Usage
 ###Install
 Download or clone this repository. Copy everything to:
