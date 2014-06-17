@@ -16,6 +16,7 @@ Login to your koken installation and switch to settings->plugin. You should see 
 Next click on setup and configure the plugins behavior. 
 
 **Example setup**
+
 ![ScreenShot](http://i.imgur.com/rAcATiN.png)
 
 When finished: enabled the plugin
